@@ -1,0 +1,63 @@
+
+body{
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+}
+#a1{
+    color: red;
+    font-size: xx-large;
+    padding-left: 60px;
+    font-family:'Times New Roman', Times, serif;
+}
+#a2{
+    color:whitesmoke;
+     font-size: 25px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     tab-size: 30px;
+
+}
+input[type=text],input[type=email],input[type=password]{
+     height: 25px;
+}
+input[type=button]:hover{
+    background-color:aquamarine ;
+}
+input[type=button]:active{
+    background-color: greenyellow;
+}
+#block{
+   padding-block: 30px;
+    border-width: 0px;
+    padding-inline-start: 200px;
+    padding-top: 300px;
+    margin-left: 35%;
+    margin-right: 15%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+#button{
+    border-spacing: 10px;
+    float: var(15%);
+    
+}
+ul{
+    background-color: white;
+    color: white;
+    font-size: large;
+}
+li{
+   float: left;
+}
+li a{
+    padding: 14px 16px;
+    text-align: center;
+}
+.active{
+    background-color: black;
+    cursor: pointer;
+}
+li:hover{
+    background-color: aquamarine;
+}

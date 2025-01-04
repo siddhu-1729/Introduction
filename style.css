@@ -1,0 +1,147 @@
+
+      body{
+            background-color: rgba(0, 0, 0, 0.932);
+            background-repeat: no-repeat;
+            background-attachment:fixed ;       /*background image can be fixed */
+            background-size: 100% 100%;     /*will fit to the screen */
+            position: static;                    
+         }
+         #h2{
+                font-size: xx-large;
+                margin-bottom: 0%;
+                padding-top: 65px;
+                padding-left: 10px;
+                /* text-transform: capitalize;   this will makes starting letter or every word to capital */
+                /* text-transform: uppercase;    this will makes the whole text into Capital */
+         }
+         #p1{
+            color: beige;
+            /* text-align: left; */
+            font-variant: calc();
+            /* padding-top: 10px; */
+            padding-bottom: 10px;
+           
+         }
+         #p{
+              font-size: large;
+              padding-left: 10px;
+         }
+         
+         
+         #scrl{
+            display: flex;
+            overflow-x: scroll;      /*provides a motion in X-direction*/
+            scrollbar-width: none;
+            scroll-behavior: smooth;
+            padding-top: 10px;
+         }
+        header{
+               width: 100%;
+               background-color: black;
+               padding-top: 0px;
+               position: fixed;
+               top: 0;
+            opacity: 0.8;
+         }
+         #r2{
+            color: whitesmoke;
+            background-color:red;
+            float: right;
+             border-style: solid;
+               padding-bottom: 10px;
+               padding-top: 5px;                            
+               /* padding-left: 10px; */
+               padding-block: 8px;
+               border-radius: 3px;
+            font-size: large;
+            cursor: pointer;
+            transform: translateY(5px);
+            /* margin-right: 20px; */
+            /* padding-inline-end: 5px; */
+         }
+         #r1{
+            color: whitesmoke;
+            background-color: black;
+            float: right;
+             border-style: solid;
+               padding-bottom: 10px;
+               padding-top: 5px;
+               padding-block: 7px;
+               margin-right: 20px;
+               border-radius: 3%;
+               border-color: beige;
+            font-size: large;
+            transform: translateY(5px);
+            cursor: pointer;
+         }
+         /* psuedo selectors: these are used to add a specific characteristic to an element for a certain operation */
+      #r1:hover{
+         background-color: blue;
+      }
+      #r1:active{
+         background-color: green;
+      }
+      #r2:active{
+         background-color: green;
+      }
+      /* psuedo elements : these can be used to style specific elements or a particular object */
+      #h2::after{
+         content: 'N';
+         border: none;
+         border-radius: 45px;
+         display: inline-block;   /*creates  a dot of color red*/  
+         width: 45px;
+         height: 40px;
+         background-color: red;
+         padding-left: 15px;
+         opacity: 0.7;   /*Total is 1*/
+      }
+      h1{
+         padding-left: 25px;
+         font-size: xx-large;
+         font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+      }
+      .last{
+         color: whitesmoke;
+         text-align: center;
+         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      button{
+         background-color: red;
+         color: antiquewhite;
+         border-radius: 5px;
+         font-size: large;
+         cursor: pointer;
+         padding: 10px 30px 10px 30px;
+      }
+      .foot{
+         padding-top: 100px;
+         font-style: gray;
+         padding-left: 5%;
+         cursor: pointer;
+      }
+      .link{
+         color: gray;
+         padding-left: 15%;
+         
+      }
+     section{
+      color: gray;
+      padding-left: 5%;
+     }
+     th,td{
+      border: 0px solid;
+      text-align:left;
+      padding: 10px;
+      border-spacing: 10px;
+      cursor: pointer;
+     }
+     .lang{
+      padding: 25px;
+      color: black;
+     
+      font-size: medium;
+     }
+     
+         
+        
